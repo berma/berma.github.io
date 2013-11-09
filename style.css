@@ -5,4 +5,36 @@ h1 {font-family: "Arial";
   margin-top: 0;
   color: #aaa; }
 
+p {
+  margin: auto auto 1.5em; }
 
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none; }
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap; }
+
+pre {
+  white-space: pre; }
+
+code {
+  white-space: pre;
+  font-family: monospace; }
+  
