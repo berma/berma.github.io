@@ -37,4 +37,30 @@ pre {
 code {
   white-space: pre;
   font-family: monospace; }
+
+  header {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 15px double #6c71c4; }
+  header h1 {
+    font-weight: 900; }
+    header h1 a {
+      transition: color .5s;
+      -webkit-transition: color .5s; }
+      header h1 a:hover {
+        color: #a3a6da;
+        text-decoration: none; }
+  header ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px; }
+    header ul li {
+      font-family: "proxima-nova", sans-serif;
+      font-size: 21px;
+      display: inline-block;
+      padding: 0 10px 0 0; }
+  @media screen and (max-width: 600px) {
+    header h1 {
+      font-size: 48px; } }
+
   
