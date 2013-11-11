@@ -41,7 +41,7 @@ code {
   header {
   margin: 0 auto;
   text-align: center;
-  border-bottom: 15px, #aaa; }
+  border-bottom: 15px single #aaa; }
   header h1 {
     font-weight: 900; }
     header h1 a {
