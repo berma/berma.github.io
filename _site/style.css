@@ -30,7 +30,7 @@ code {
     }
   header h1 a {
     color:#000000;
-    underline:none; 
+    text-decoration: none;; 
   }
   header h1 a:hover {
         color: #000000;
@@ -42,7 +42,7 @@ code {
     }
   header ul a {
     color: #000000;
-    underline: none;
+    text-decoration: none;
   }
     header ul li {
       font-family: "helvetica", sans-serif;
