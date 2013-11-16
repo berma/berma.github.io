@@ -5,30 +5,8 @@ h1 {font-family: "Helvetica";
   margin-top: 0;
   color: #000; }
 
-<<<<<<< HEAD
-=======
-
 p {
   margin: auto auto 1.5em; }
-
-abbr,
-acronym,
-blockquote,
-code,
-dir,
-kbd,
-listing,
-plaintext,
-q,
-samp,
-tt,
-var,
-xmp {
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  -o-hyphens: none;
-  hyphens: none; }
 
 pre code {
   white-space: -moz-pre-wrap;
@@ -50,10 +28,7 @@ code {
   header h1 {
     font-weight: 700;
     color:#000000; }
-    header h1 a {
-      transition: color .5s;
-      -webkit-transition: color .5s; }
-      header h1 a:hover {
+  header h1 a:hover {
         color: #000000;
         text-decoration: none; }
   header ul {
@@ -77,4 +52,3 @@ code {
 }
 
   
->>>>>>> a8eb0648df32d01c0574dc91692f2e1b355db364
