@@ -25,13 +25,13 @@ code {
   margin-right:400px;
   text-align: center;
   border-bottom: 15px single #aaa; }
-  header h1 {
+  header h1 a{
     font-weight: 700;
     color:#000000; }
   header h1 a:hover {
         color: #000000;
         text-decoration: none; }
-  header ul {
+  header ul a{
     list-style-type: none;
     padding: 0;
     margin-bottom: 10px;
