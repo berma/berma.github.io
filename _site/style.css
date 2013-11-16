@@ -1,4 +1,4 @@
-h1 {font-family: "Arial";
+h1 {font-family: "Helvetica";
   src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
   unicode-range: U+0026; 
   line-height: 1;
@@ -31,7 +31,8 @@ xmp {
 
 pre code {
   white-space: -moz-pre-wrap;
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+  margin-top: 200px; }
 
 pre {
   white-space: pre; }
@@ -41,29 +42,35 @@ code {
   font-family: monospace; }
 
   header {
-  margin: 0 auto;
+  margin-left: 400px;
+  margin-right:400px;
   text-align: center;
   border-bottom: 15px single #aaa; }
   header h1 {
-    font-weight: 900; }
+    font-weight: 700; }
     header h1 a {
       transition: color .5s;
       -webkit-transition: color .5s; }
       header h1 a:hover {
-        color: #a3a6da;
+        color: #000000;
         text-decoration: none; }
   header ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 10px; }
     header ul li {
-      font-family: "proxima-nova", sans-serif;
+      font-family: "helvetica", sans-serif;
       font-size: 21px;
       display: inline-block;
       padding: 0 10px 0 0; }
   @media screen and (max-width: 600px) {
     header h1 {
       font-size: 48px; } }
+
+.verticalLine {
+    border-left: thick solid #000000;
+    border-right: thick solid #000000;
+}
 
   
 >>>>>>> a8eb0648df32d01c0574dc91692f2e1b355db364
