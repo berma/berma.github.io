@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Adam Berman
+    </title>
+    <link rel="alternate" href="http://www.adberman.com/feed.xml" type="application/rss+xml" title="">
+    <script type="text/javascript" src="//use.typekit.net/obm4ofp.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+       <nav>
+        <ul>
+          <li><a href="/portfolio/">Portfolio</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/resume/">Résumé</a></li>
+        </ul>
+      </nav>
+      <div class="nameplate">
+        <h1><a href="http://www.adberman.com">Adam Berman</a></h1>
+        <h4 class="description">Dreamer</h4>
+      </div>
+    </header>
+    <div class="border"></div>
+    <footer>
+      <div class="content-wrap">
+        <section class="about">
+        </section>
+        <section class="copy">
+          <p>&copy; 2013 kittens;
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
