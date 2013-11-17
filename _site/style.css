@@ -33,7 +33,7 @@ code {
     text-decoration: none;; 
   }
   header h1 a:hover {
-        color: #000000;
+        color: #656565;
         text-decoration: none; }
   header ul {
     list-style-type: none;
@@ -42,6 +42,10 @@ code {
     }
   header ul a {
     color: #000000;
+    text-decoration: none;
+  }
+  header ul a:hover {
+    color: #656565;
     text-decoration: none;
   }
     header ul li {
