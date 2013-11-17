@@ -60,9 +60,9 @@ code {
       font-size: 48px; } }
   .homepic {
     width:400px;
+    display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 6em
+    margin-right: auto 
   }
 
 .verticalLine {
