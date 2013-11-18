@@ -21,7 +21,7 @@ code {
   font-family: monospace; }
 
   header {
-  margin-left: 0px;
+  margin-left: 100px;
   margin-right:400px;
   text-align: left;
   border-bottom: 15px single #aaa; }
@@ -70,7 +70,7 @@ code {
 }
 
 .nameplate {
-  
+  margin-left:150px;
 }
 
   
