@@ -59,7 +59,7 @@ code {
 
   .homepic {
     width:400px;
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto 
   }
