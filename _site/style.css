@@ -55,9 +55,7 @@ code {
       padding: 0 10px 0 0; 
       color: #000000;
     }
-  @media screen and (max-width: 600px) {
-    header h1 {
-      font-size: 48px; } }
+
   .homepic {
     width:400px;
     display: block;
@@ -75,6 +73,10 @@ code {
 .verticalLine {
     border-left: thick solid #000000;
     border-right: thick solid #000000;
+}
+
+.nameplate {
+  
 }
 
   
