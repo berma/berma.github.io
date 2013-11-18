@@ -21,9 +21,9 @@ code {
   font-family: monospace; }
 
   header {
-  margin-left: 400px;
+  margin-left: 0px;
   margin-right:400px;
-  text-align: center;
+  text-align: left;
   border-bottom: 15px single #aaa; }
   header h1 {
     font-weight: 700;
@@ -54,6 +54,7 @@ code {
       display: block;
       padding: 0 10px 0 0; 
       color: #000000;
+      font-weight: 500;
     }
 
   .homepic {
