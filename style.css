@@ -51,7 +51,7 @@ code {
     header ul li {
       font-family: "helvetica", sans-serif;
       font-size: 21px;
-      display: inline-block;
+      display: block;
       padding: 0 10px 0 0; 
       color: #000000;
     }
