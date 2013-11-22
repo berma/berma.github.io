@@ -40,12 +40,11 @@ code {
     padding: 0;
     margin-bottom: 10px;
     }
-  header ul li a {
+  header ul a {
     color: #000000;
-    font-family: font-family: 'Gravitas One', cursive;
+    text-decoration: none;
   }
-  
-  header ul li a:hover {
+  header ul a:hover {
     color: #2f2f2f;
     text-decoration: none;
   }
@@ -56,6 +55,7 @@ code {
       color: #000000;
       font-weight: 900;
       letter-spacing: .7px;
+      font-family: Verdana, Geneva, sans-serif;
     }
 
   .homepic {
