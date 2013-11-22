@@ -64,7 +64,7 @@ code {
 
 #menu {
   position: fixed;
-  left: 0;
+  left: 5px;
   top: 10%;
   width: 8em;
   margin-top: -2.5em;
