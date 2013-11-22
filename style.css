@@ -62,6 +62,14 @@ code {
   padding-top:0px;
 }
 
+#menu {
+  position: fixed;
+  left: 0;
+  top: 2%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+
   .homepic {
     width:400px;
     display: inline-block;
