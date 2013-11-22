@@ -58,6 +58,10 @@ code {
       font-family: Verdana, Geneva, sans-serif;
     }
 
+#projects {
+  padding-top:0px;
+}
+
   .homepic {
     width:400px;
     display: inline-block;
