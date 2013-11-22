@@ -50,10 +50,14 @@ h1 {font-family: 'Chivo', sans-serif;
 
 #menu {
   position: fixed;
-  left: 100px;
+  left: 50px;
   top: 10%;
   width: 8em;
   margin-top: -2.5em;
+}
+
+.nav {
+  left:100px;
 }
 
   .homepic {
