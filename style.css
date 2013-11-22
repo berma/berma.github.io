@@ -5,28 +5,14 @@ h1 {font-family: 'Chivo', sans-serif;
   margin-top: 0;
   color: #000; }
 
-p {
-  margin: auto auto 1.5em; }
-
-pre code {
-  white-space: -moz-pre-wrap;
-  white-space: pre-wrap;
-  margin-top: 200px; }
-
-pre {
-  white-space: pre; }
-
-code {
-  white-space: pre;
-  font-family: monospace; }
-
   header {
   margin-left: 100px;
   text-align: left;
   border-bottom: 15px single #aaa;
   display: inline-block; }
+
   header h1 {
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     }
   header h1 a {
     color:#000000;
@@ -55,7 +41,7 @@ code {
       color: #000000;
       font-weight: 900;
       letter-spacing: .7px;
-      font-family: Verdana, Geneva, sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
 
 #projects {
@@ -64,7 +50,7 @@ code {
 
 #menu {
   position: fixed;
-  left: 5px;
+  left: 50px;
   top: 10%;
   width: 8em;
   margin-top: -2.5em;
