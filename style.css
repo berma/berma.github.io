@@ -82,5 +82,12 @@ h1 {font-family: 'Chivo', sans-serif;
   font-family: "helvetica";
   font-weight: bold;
   margin: auto;
+  left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
   
