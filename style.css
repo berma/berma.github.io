@@ -80,9 +80,14 @@ h1 {font-family: 'Chivo', sans-serif;
 
 .hi {
   font-family: "helvetica";
-  font-weight: bold;
+  font-weight: normal;
     margin-left: auto;
     margin-right: auto;
     width: 550px;
+}
+.hi a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
 }
   
