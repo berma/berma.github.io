@@ -90,4 +90,8 @@ h1 {font-family: 'Chivo', sans-serif;
   color: #000;
   text-decoration: none;
 }
+
+.hi a:hover {
+  color: #ddd;
+}
   
