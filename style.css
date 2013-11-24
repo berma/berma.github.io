@@ -88,9 +88,9 @@ h1 {font-family: 'Chivo', sans-serif;
 }
 
 .portfolio ul li img {
-  position:inline; 
   width:400px;
   height:auto;
   margin:20px;
+  float:left;
 }
   
