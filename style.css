@@ -95,9 +95,10 @@ h1 {font-family: 'Chivo', sans-serif;
   color: #aaa;
 }
 
-.portfolio ul li {
+.portfolio ul li img {
   position:inline; 
-  max-width:400px;
+  width:400px;
+  height:auto;
   margin:20px;
 }
   
