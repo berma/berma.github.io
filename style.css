@@ -87,10 +87,11 @@ h1 {font-family: 'Chivo', sans-serif;
   color: #aaa;
 }
 
-.portfolio img {
+.portfolio {
   width:400px;
   height:auto;
   margin:20px;
+  left:200px;
   float:left;
 }
   
