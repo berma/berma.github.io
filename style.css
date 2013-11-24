@@ -90,6 +90,7 @@ h1 {font-family: 'Chivo', sans-serif;
 .portfolio {
   float:left;
   margin-left: 200px;
+  margin-right: 200px;
 }
 
 .portfolio img {
