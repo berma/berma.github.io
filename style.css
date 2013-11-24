@@ -94,4 +94,10 @@ h1 {font-family: 'Chivo', sans-serif;
 .hi a:hover {
   color: #aaa;
 }
+
+.portfolio {
+  position:inline;
+  width:400px;
+  margin:20px;
+}
   
