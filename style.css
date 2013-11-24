@@ -89,12 +89,12 @@ h1 {font-family: 'Chivo', sans-serif;
 
 .portfolio {
   float:left;
-  margin-left: 270px;
+  margin-left: 260px;
   margin-right: 200px;
 }
 
 .portfolio img {
-  max-width:300px;
+  max-width:320px;
   height:auto;
   margin:20px;
 }
