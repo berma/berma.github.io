@@ -18,17 +18,8 @@ h1 {font-family: 'Chivo', sans-serif;
     color:#000000;
     text-decoration: none;; 
   }
-  header h1 a:hover {
-        color: #656565;
-        text-decoration: none; }
-  header ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 10px;
-    }
-  header ul a {
-    color: #000000;
-    text-decoration: none;
+  header h1 a:
+
   }
   header ul a:hover {
     color: #2f2f2f;
@@ -81,9 +72,10 @@ h1 {font-family: 'Chivo', sans-serif;
 .hi {
   font-family: "helvetica";
   font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  color: #666;
 }
 .hi a {
   font-weight: bold;
