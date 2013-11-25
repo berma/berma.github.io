@@ -30,7 +30,7 @@
 .logo img {
 position:absolute;
 left:180px;
-margin-top:40px;
+margin-top:60px;
 z-index:-2;
 }
 
@@ -78,5 +78,5 @@ z-index:-2;
 body {
   margin: auto;
   max-width: 590px;  
-  margin-top: 40px;
+  margin-top: 60px;
 }
