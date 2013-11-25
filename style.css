@@ -4,6 +4,11 @@
   text-align: left;
 }
 
+.portfolio {
+  float:left;
+  width:900px;
+}
+
 .portfolio img {
   max-width:320px;
   height:auto;
@@ -12,5 +17,6 @@
 
 body {
   margin: auto;
-  max-width: 800px;  
+  max-width: 590px;  
+  margin-top: 5px;
 }
