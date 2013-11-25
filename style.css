@@ -9,6 +9,10 @@
     color: #7a4c02;
   }
 
+.toggle {
+  float:right;
+}  
+
 .portfolio {
   float:left;
   width:900px;
