@@ -5,56 +5,6 @@
   border-bottom: 15px single #aaa;
   display: inline-block; }
 
-  header ul a:hover {
-    color: #2f2f2f;
-    text-decoration: none;
-  }
-    header ul li {
-      font-size: 21px;
-      display: block;
-      padding: 0px 10px 10px 0; 
-      color: #000000;
-      font-weight: 700;
-      letter-spacing: .7px;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-#projects {
-  padding-top:0px;
-}
-
-.nav {
-  margin-left:64px;
-  margin-top: -20px;
-}
-
-.logo img {
-position:absolute;
-left:180px;
-margin-top:-16px;
-z-index:-2;
-}
-
-.hi {
-  font-family: "helvetica";
-  font-weight: normal;
-  float:left;
-  color: #444;
-  margin-top: 35px;
-  margin-bottom: -10px;
-  z-index: 0;
-}
-
-.hi a {
-  font-weight: bold;
-  color: #000;
-  text-decoration: none;
-}
-
-.hi a:hover {
-  color: #aaa;
-}
-
 .portfolio {
   float:left;
   margin: auto;
