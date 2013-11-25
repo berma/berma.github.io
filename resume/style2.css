@@ -61,6 +61,13 @@ p{
 
 /* LAYOUT */
 /*+++++++++++++++++++++++++++++++++++++*/
+.logo img {
+position:absolute;
+left:180px;
+top:0px;
+z-index:-2;
+}
+
 .col {
 	float:left;
 	width:25%;
