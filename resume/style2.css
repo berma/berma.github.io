@@ -93,8 +93,13 @@ top:0px;
 	height:200px;
 }
 
+#contact {
+	margin-left: 10px;
+}
+
 #skills {
 	margin-right: -20px;
+	margin-left: 10px;
 }
 
 .rect{
