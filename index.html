@@ -12,10 +12,10 @@
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="http://emojipedia.org/wp-content/uploads/2013/08/112-victory-hand.png" />
-    <script type="text/javascript"></script>
-
-
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body background="">
 <script type="text/javascript" charset="utf-8">
@@ -53,6 +53,10 @@ onmouseout="this.src='farnsworth.png'">
 onmouseout="this.src='photography.png'">
     
 </div>   
-
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
   </body>
 </html>
