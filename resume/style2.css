@@ -68,6 +68,10 @@ top:0px;
 z-index:-2;
 }
 
+#top-row {
+	margin-left: 100px;
+}
+
 .col {
 	float:left;
 	width:25%;
