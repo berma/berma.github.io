@@ -78,4 +78,5 @@ z-index:-2;
 body {
   margin: auto;
   max-width: 590px;  
+  margin-top: 40px;
 }
