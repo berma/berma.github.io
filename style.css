@@ -22,22 +22,17 @@
   padding-top:0px;
 }
 
-#menu {
-  position: fixed;
-  left: 70px;
-  top: 10%;
-  width: 8em;
-  margin-top: -2.5em;
-}
 
 .nav {
   margin-left:64px;
   margin-top: -20px;
 }
 
-.verticalLine {
-    border-left: thick solid #000000;
-    border-right: thick solid #000000;
+.logo img {
+position:absolute;
+left:0px;
+top:0px;
+z-index:-2;
 }
 
 .nameplate {
@@ -52,6 +47,7 @@
   float:left;
   color: #444;
   margin-top: 10px;
+  z-index: 0;
 }
 
 .hi a {
@@ -75,6 +71,7 @@
   margin:5px;
   margin-right:20px;
 }
+
 body {
   margin: auto;
   max-width: 600px;  
