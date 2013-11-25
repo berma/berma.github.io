@@ -48,7 +48,7 @@
 .hi {
   font-family: "helvetica";
   font-weight: normal;
-  margin-right: auto;
+  margin-left:5px;
   float:left;
   color: #444;
 }
