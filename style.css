@@ -9,6 +9,7 @@
   font-size: 45px;
   color: #16a085;
   display:inline;
+  margin-top:80px;
 }
 
   #mi {
@@ -17,8 +18,8 @@
 
 .toggle img{
   float:left;
-  max-width:220px;
-  margin-left:620px;
+  max-width:250px;
+  margin-left:600px;
   position: relative;
 }  
 
