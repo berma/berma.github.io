@@ -11,7 +11,7 @@
 
 .toggle {
   float:left;
-  width:150px;
+  max-width:90px;
   margin-left:200px;
 }  
 
