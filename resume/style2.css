@@ -62,7 +62,7 @@ p{
 /* LAYOUT */
 /*+++++++++++++++++++++++++++++++++++++*/
 .logo img {
-position:relative;
+position:absolute;
 left:180px;
 top:0px;
 }
