@@ -8,14 +8,16 @@
   text-align: left;
   font-size: 45px;
   color: #16a085;
+  display:inline;
 }
+
   #mi {
     color: #7a4c02;
   }
 
 .toggle img{
   float:left;
-  max-width:200px;
+  max-width:220px;
   margin-left:600px;
   position: relative;
 }  
