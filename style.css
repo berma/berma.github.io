@@ -35,13 +35,6 @@
   margin-top: -20px;
 }
 
-  . {
-    width:400px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto 
-  }
-
 .verticalLine {
     border-left: thick solid #000000;
     border-right: thick solid #000000;
@@ -57,7 +50,7 @@
   font-weight: normal;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 570px;
   color: #444;
 }
 
