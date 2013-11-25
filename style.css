@@ -30,7 +30,7 @@
 .logo img {
 position:absolute;
 left:180px;
-margin-top:60px;
+margin-top:0px;
 z-index:-2;
 }
 
