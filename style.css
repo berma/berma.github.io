@@ -66,8 +66,9 @@
 
 .portfolio {
   float:left;
-  margin-left: 350px;
-  margin-right: 200px;
+    width: 50%;
+    margin: 0 auto;
+}
 }
 
 .portfolio img {
