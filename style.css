@@ -65,9 +65,7 @@
 }
 
 .portfolio {
-  float:left;
-    left: 50%;
-    margin: auto;
+  float:center;
 }
 
 .portfolio img {
