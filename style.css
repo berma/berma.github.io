@@ -65,10 +65,8 @@
 }
 
 .portfolio {
-  display:inline-block;
-  margin-left: auto;
-  margin-right: auto;
-
+  float:left;
+  margin: auto;
 }
 
 .portfolio img {
@@ -76,4 +74,7 @@
   height:auto;
   margin:5px;
 }
-  
+body {
+  margin: auto;
+  max-width: 700px;  
+}
