@@ -1,6 +1,6 @@
 body {
 	margin:auto;
-	font-family: Helvetica;
+	font-family: 'Helvetica';
 	font-weight:100;
 	width:865px;
 }
@@ -74,6 +74,7 @@ top:0px;
 }
 
 .col {
+	font-family: 'Helvetica';
 	float:left;
 	width:25%;
 	height:100%;
