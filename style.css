@@ -48,9 +48,8 @@
 .hi {
   font-family: "helvetica";
   font-weight: normal;
-  margin-left: auto;
   margin-right: auto;
-  width: 570px;
+  float:left;
   color: #444;
 }
 
