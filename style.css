@@ -2,7 +2,12 @@
   font-family: 'Open Sans', sans-serif;
   float:left;
   text-align: left;
+  font-size: 45px;
+  color: #16a085;
 }
+  #mi {
+    color: #7a4c02;
+  }
 
 .portfolio {
   float:left;
