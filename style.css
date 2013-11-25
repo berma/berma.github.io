@@ -10,8 +10,9 @@
   }
 
 .toggle {
-  float:right;
+  float:left;
   width:150px;
+  margin-left:200px;
 }  
 
 .portfolio {
