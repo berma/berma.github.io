@@ -35,4 +35,5 @@ body {
   margin: auto;
   max-width: 590px;  
   margin-top: 5px;
+  margin-left: -100px;
 }
