@@ -9,7 +9,7 @@
   font-size: 45px;
   color: #16a085;
   display:inline;
-  margin-bottom:-54px;
+  margin-bottom:-52px;
   margin-top:80px;
   margin-left:4px;
 }
@@ -21,7 +21,7 @@
 .toggle img{
   float:left;
   max-width:230px;
-  margin-left:585px;
+  margin-left:595px;
   position: relative;
 }  
 
@@ -29,7 +29,7 @@
   background-image: url('toggle2.png');
   float:left;
   max-width:230px;
-  margin-left:585px;
+  margin-left:595px;
   position: relative;
 }
 
