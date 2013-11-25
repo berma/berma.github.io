@@ -63,9 +63,9 @@ z-index:-2;
 .portfolio {
   float:left;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   width:900px;
-  margin-left:-120px;
+  margin-left:-150px;
 }
 
 .portfolio img {
