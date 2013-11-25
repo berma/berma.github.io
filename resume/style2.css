@@ -25,18 +25,21 @@ h2{
 	margin-top:0px;
 }
 h3 {
+	font-family: "Helvetica";
 	font-size:18px;
 	font-weight:500;
 	margin-bottom:0px;
 	margin-top:0;
 }
 h4 {
+	font-family: "Helvetica";
 	font-size: 15px;
 	font-weight:100;
 	margin-top:0;
 	margin-bottom:3px;
 }
 h5 {
+	font-family: "Helvetica";
 	margin-top:0;
 	margin-bottom:20px;
 	font-size:13px;
