@@ -25,6 +25,14 @@
   position: relative;
 }  
 
+.toggle img:hover{
+  background-image: url('toggle2.png');
+  float:left;
+  max-width:230px;
+  margin-left:585px;
+  position: relative;
+}
+
 .portfolio {
   float:left;
   width:900px;
