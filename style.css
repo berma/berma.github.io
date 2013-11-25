@@ -42,7 +42,6 @@ z-index:-2;
 .hi {
   font-family: "helvetica";
   font-weight: normal;
-  font-size: 14px;
   margin-left:5px;
   float:left;
   color: #444;
@@ -68,7 +67,7 @@ z-index:-2;
 }
 
 .portfolio img {
-  max-width:315px;
+  max-width:318px;
   height:auto;
   margin:5px;
   margin-right:20px;
