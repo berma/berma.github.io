@@ -46,7 +46,7 @@ z-index:-2;
   float:left;
   color: #444;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
   z-index: 0;
 }
 
@@ -63,7 +63,7 @@ z-index:-2;
 .portfolio {
   float:left;
   margin: auto;
-  padding-top: 20px;
+  margin-top: 25px;
 }
 
 .portfolio img {
