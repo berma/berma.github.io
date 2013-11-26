@@ -24,6 +24,8 @@
 .portfolio {
   width:900px;
   margin-top:22px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .portfolio img {
