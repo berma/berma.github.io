@@ -22,11 +22,12 @@
 }  
 
 .portfolio {
-  position:fixed;
+  position:absolute;
   width:900px;
   margin-top:22px;
   margin-left:auto;
   margin-right:auto;
+  left:50%;
 }
 
 .portfolio img {
