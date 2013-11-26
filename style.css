@@ -22,7 +22,7 @@
 }  
 
 .portfolio {
-  position:absolute;
+  position:relative;
   width:900px;
   margin-top:22px;
   margin-left:auto;
