@@ -41,6 +41,7 @@ body {
   position: fixed;
   max-width: 590px;  
   margin-top: 5px;
+  margin: auto;
 }
 
 footer {
