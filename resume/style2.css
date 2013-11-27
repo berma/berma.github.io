@@ -23,6 +23,18 @@ h1 {
   margin-bottom: -20px;
 }
 
+.resume {
+  position:relative;
+  width:900px;
+  margin-top:22px;
+}
+
+#timeline {
+  float:left;
+  width:67%;
+  height:370px;
+}
+
 body {
   position: fixed;
   margin-top: 30px;
