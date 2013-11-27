@@ -18,6 +18,7 @@
   float:left;
   max-width:230px;
   margin-left:600px;
+  display: inline-block;
 }  
 
 .portfolio {
