@@ -14,11 +14,9 @@
     color: #7a4c02;
   }
 
-.toggle a img{
-  float:left;
+.toggle img{
   max-width:230px;
   margin-left:600px;
-  display: inline-block;
 }  
 
 .portfolio {
