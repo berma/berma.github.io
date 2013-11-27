@@ -47,6 +47,6 @@ footer {
   font-family: 'Helvetica', sans-serif;
   position: fixed;
   margin-left: 300px;
-  bottom: 5px;
-  height:10px;
+  bottom: 0px;
+  height:20px;
 }
