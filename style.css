@@ -45,7 +45,7 @@ body {
 footer {
   text-align: center;
   font-family: 'Helvetica', sans-serif;
-  position: relative;
+  display: block;
   bottom: 0px;
   height:18px;
   margin-left:-212px;
