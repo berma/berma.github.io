@@ -19,6 +19,10 @@
   margin-left:600px;
 }  
 
+.header {
+  margin-bottom: -10px;
+}
+
 .portfolio {
   position:relative;
   width:900px;
