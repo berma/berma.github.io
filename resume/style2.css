@@ -30,6 +30,7 @@ h1 {
 }
 
 #timeline {
+  font-weight: 600;
   float:left;
   width:67%;
   height:400px;
