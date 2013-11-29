@@ -30,7 +30,6 @@ h1 {
 }
 
 #timeline {
-  color: #404040;
   font-weight: 600;
   float:left;
   width:67%;
@@ -40,6 +39,11 @@ h1 {
 
 .categoryLabels {
   font-size: 18px;
+  color: #404040;
+}
+
+.axisLabels {
+  color: #404040;
 }
 
 body {
