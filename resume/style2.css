@@ -47,11 +47,13 @@ h1 {
 }
 
 body {
-  font-family: 'Helvetica', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   position: fixed;
   margin-top: 30px;
   left:50%;
   margin-left:-423px;
+  color: #404040;;
 }
 
 footer {
