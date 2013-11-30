@@ -78,10 +78,6 @@ svg:not(:root) {
   display:inline;
 }
 
-.axisLabels {
-  font-size: 10px;
-}
-
 .rect{
   cursor: pointer;
 }
@@ -94,9 +90,4 @@ svg:not(:root) {
 
 #detail p{
   margin-bottom:10px;
-}
-
-.placeLabel {
-  margin-top:20px;
-  font-size:10px;
 }
