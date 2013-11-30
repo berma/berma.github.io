@@ -7,7 +7,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#backpacking").click(function () {
-		$('#backpackingt').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#backpackingt").fadeIn(400);
 	});
 	});
 
