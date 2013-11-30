@@ -85,9 +85,4 @@ svg:not(:root) {
 #detail{
   width:25%;
   float:left;
-  height:200px;
-}
-
-#detail p{
-  margin-bottom:10px;
 }
