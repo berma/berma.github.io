@@ -8,15 +8,15 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#backpacking").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#backpackingt").fadeIn(1000);
+		$(".hidden").fadeOut("slow");
+		$("#backpackingt").fadeIn("slow");
 	});
 	});
 
 $(document).ready(function () {
 	$("#marketing").click(function () {
 		$(".hidden").fadeOut(400);
-		$("#marketingt").fadeIn(1000);	
+		$("#marketingt").fadeIn("slow");	
 	});
 	});
 
