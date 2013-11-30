@@ -65,3 +65,75 @@ footer {
   height:20px;
 }
 
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.shown {
+  display:inline;
+}
+
+.axisLabels {
+  font-size: 10px;
+}
+
+.rect{
+  cursor: pointer;
+}
+
+#detail{
+  width:25%;
+  float:left;
+  height:200px;
+}
+
+h1 {
+  font-weight:200;
+  font-size:25px;
+  border-bottom: solid 3px #B3B3B3;
+}
+a {
+  text-decoration: none;
+  color: IndianRed;
+}
+h2{
+  font-size: 16px;
+  font-weight:500;
+  margin-bottom: 8px;
+  margin-top:0px;
+}
+h3 {
+  font-size:18px;
+  font-weight:500;
+  margin-bottom:0px;
+  margin-top:0;
+}
+h4 {
+  font-size: 15px;
+  font-weight:100;
+  margin-top:0;
+  margin-bottom:3px;
+}
+h5 {
+  margin-top:0;
+  margin-bottom:20px;
+  font-size:13px;
+  font-style:italic;
+  font-weight:100;
+}
+p{
+  margin-top:0px;
+  font-size: 13px;
+}
+#detail p{
+  margin-bottom:10px;
+}
+.placeLabel {
+  margin-top:20px;
+  font-size:10px;
+}
