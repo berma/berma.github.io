@@ -70,7 +70,6 @@ svg:not(:root) {
 }
 
 .hidden {
-    visibility: hidden;
     position: absolute;;
 }
 
