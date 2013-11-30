@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	$("#graphics").click(function () {
-		$('#graphicst').FadeToggle([400] [,swing]);
+		$('#graphicst').toggle(400);
 	});
 	});
 
