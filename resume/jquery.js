@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	$("#graphics").click(function () {
-		$('#graphicst').fadeIn(400);
+		$(".hidden").fadeOut(400);
+		$("#graphicst").fadeIn(400);	
 	});
 	});
 
