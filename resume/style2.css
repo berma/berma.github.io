@@ -42,6 +42,10 @@ h1 {
   font-size: 18px;
 }
 
+#contact {
+  margin-top: 0px;
+}
+
 body {
   font-family: 'Helvetica', sans-serif;
   position: fixed;
