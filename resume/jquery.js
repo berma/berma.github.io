@@ -13,7 +13,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#marketing").click(function () {
-		$('#marketingt').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#marketingt").fadeIn(400);	
 	});
 	});
 
