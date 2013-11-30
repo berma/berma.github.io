@@ -81,6 +81,10 @@ svg:not(:root) {
   cursor: pointer;
 }
 
+.rect:hover {
+  color:#2c3e50;
+}
+
 #detail{
   width:25%;
   float:left;
