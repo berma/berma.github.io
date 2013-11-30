@@ -184,7 +184,7 @@ d3.csv("data/timeline.csv", function(error, data){
 	    		return "#000000"
 	    	}
 	    	else {
-	    		return "#B3B3B3"
+	    		return "#34495e"
 	    	}
 		})
 	    .attr("stroke", "white")
@@ -216,7 +216,7 @@ d3.csv("data/timeline.csv", function(error, data){
 					return "#000000"
 				}
 				else{
-					return "#B3B3B3"
+					return "#34495e"
 				}
 			});
 
