@@ -2,7 +2,7 @@ $(document).ready(function () {
 	$("#graphics").click(function () {
 		$(".hidden").fadeOut(400);
 		$("#graphicst").fadeIn(1000);
-		$("#graphics").fillRect("#000000");	
+		$("#graphics").fillRect("black");	
 	});
 	});
 
