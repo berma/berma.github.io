@@ -35,7 +35,7 @@
   margin:5px;
 }
 
-body {
+.main {
   position: fixed;
   margin-top: 30px;
   left:50%;
