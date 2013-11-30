@@ -35,6 +35,7 @@ h1 {
   width:70%;
   height:360px;
   padding-top: 10px;
+  margin-left: -10px;
 }
 
 .categoryLabels {
