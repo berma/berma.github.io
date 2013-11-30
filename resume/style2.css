@@ -47,7 +47,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-body {
+.main {
   font-family: 'Helvetica', sans-serif;
   position: fixed;
   margin-top: 30px;
