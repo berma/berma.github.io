@@ -45,4 +45,10 @@ $(document).ready(function () {
 		$(".hidden").fadeOut(400);
 		$("#webt").fadeIn(1000);	
 	});
+
+$(document).ready(function () {
+	$("#gardening").click(function () {
+		$(".hidden").fadeOut(400);
+		$("#gardeningt").fadeIn(1000);	
+	});	
 });
