@@ -44,6 +44,19 @@ $(document).ready(function () {
 	$("#web").click(function () {
 		$(".hidden").fadeOut(400);
 		$("#webt").fadeIn(1000);	
+	});	
 	});
-	
-});
+
+$(document).ready(function () {
+	$("#garden").click(function () {
+		$(".hidden").fadeOut(400);
+		$("#gardent").fadeIn(1000);	
+	});	
+	});
+
+$(document).ready(function () {
+	$("#parks").click(function () {
+		$(".hidden").fadeOut(400);
+		$("#parkst").fadeIn(1000);	
+	});	
+	});
