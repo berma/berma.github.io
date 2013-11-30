@@ -47,7 +47,7 @@ var y = d3.scale.ordinal()
 		height-10]);
 
 var axisPoints = [
-	{year:"2007", date:"1-Jan-07"},
+	{year:"2007", date:"1-Jan-07"}, 
 	{year:"08", date:"1-Jan-08"},
 	{year:"09", date:"1-Jan-09"},
 	{year:"10", date:"1-Jan-10"},
@@ -130,43 +130,43 @@ d3.csv("data/timeline.csv", function(error, data){
 
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("ENGINEERING")
+		.text("PARKS")
 		.attr("x", x(parseDate("01-Jul-07")))
 		.attr("y", y("engineering") - 3)
 	
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("UNDERGRAD")
+		.text("NORTHWESTERN")
 		.attr("x", x(parseDate("01-Sep-06")))
 		.attr("y", y("school") - 3)
 	
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("J-SCHOOL")
+		.text("PRINTMAKING")
 		.attr("x", x(parseDate("01-Sep-10")))
 		.attr("y", y("school") - 3)
 		
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("WRITING")
+		.text("GARDENING")
 		.attr("x", x(parseDate("01-Sep-11")))
 		.attr("y", y("writing") - 3)
 		
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("GRAPHICS")
+		.text("BACKPACKING")
 		.attr("x", x(parseDate("01-Dec-11")))
 		.attr("y", y("graphics") + 17)
 
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("BOTH")
+		.text("GRAPHICS")
 		.attr("x", x(parseDate("01-Aug-12")))
 		.attr("y", y("wandg") - 3)
 	
 	svg.append("text")
 		.attr("class","axisLabels")
-		.text("SKI BUMMING")
+		.text("MARKETING")
 		.attr("x", x(parseDate("01-Nov-09")))
 		.attr("y", y("play") - 3)
 
