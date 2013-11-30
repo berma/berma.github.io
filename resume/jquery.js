@@ -22,7 +22,8 @@ $(document).ready(function () {
 $(document).ready(function () {
 	$("#northwestern").click(function () {
 		$(".hidden").fadeOut(400);
-		$("#northwesternt").fadeIn(1000);	
+		$("#northwesternt").fadeIn(1000);
+		$("#northwestern").fillRect("black");	
 	});
 	});
 
