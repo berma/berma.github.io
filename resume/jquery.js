@@ -1,44 +1,48 @@
 $(document).ready(function () {
 	$("#graphics").click(function () {
 		$(".hidden").fadeOut(400);
-		$("#graphicst").fadeIn(400);	
+		$("#graphicst").fadeIn(1000);	
 	});
 	});
 
 $(document).ready(function () {
 	$("#backpacking").click(function () {
 		$(".hidden").fadeOut(400);
-		$("#backpackingt").fadeIn(400);
+		$("#backpackingt").fadeIn(1000);
 	});
 	});
 
 $(document).ready(function () {
 	$("#marketing").click(function () {
 		$(".hidden").fadeOut(400);
-		$("#marketingt").fadeIn(400);	
+		$("#marketingt").fadeIn(1000);	
 	});
 	});
 
 $(document).ready(function () {
 	$("#northwestern").click(function () {
-		$('#northwesternt').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#northwesternt").fadeIn(1000);	
 	});
 	});
 
 $(document).ready(function () {
 	$("#parks").click(function () {
-		$('#parkst').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#parkst").fadeIn(1000);	
 	});
 	});
 
 $(document).ready(function () {
 	$("#printmaking").click(function () {
-		$('#printmakingt').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#printmakingt").fadeIn(1000);	
 	});
 	});
 
 $(document).ready(function () {
 	$("#web").click(function () {
-		$('#webt').toggle(1000);
+		$(".hidden").fadeOut(400);
+		$("#webt").fadeIn(1000);	
 	});
 });
