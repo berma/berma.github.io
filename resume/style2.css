@@ -67,6 +67,10 @@ a {
   font-size: 18px;
 }
 
+.placeLabel {
+  font-style: italic;
+}
+
 #info {
   margin-top: 0px;
   margin-bottom: 0px;
