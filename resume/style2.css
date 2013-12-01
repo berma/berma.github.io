@@ -121,6 +121,7 @@ svg:not(:root) {
   background: black;
   color: black;
   fill:#000;
+  stroke:#000;
 
 }
 
