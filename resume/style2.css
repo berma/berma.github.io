@@ -120,6 +120,7 @@ svg:not(:root) {
 .rect:selection {
   background: black;
   color: black;
+  fill:#000;
 
 }
 
