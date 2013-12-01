@@ -1,8 +1,14 @@
 $(document).ready(function () {
+	$("#skills").click(function () {
+		$(".hidden").fadeOut(400);
+		$("#skillst").fadeIn(1000);
+	});
+	});
+
+$(document).ready(function () {
 	$("#graphics").click(function () {
 		$(".hidden").fadeOut(400);
 		$("#graphicst").fadeIn(1000);
-		$("#graphics").fillRect("black");	
 	});
 	});
 
@@ -24,7 +30,6 @@ $(document).ready(function () {
 	$("#northwestern").click(function () {
 		$(".hidden").fadeOut(400);
 		$("#northwesternt").fadeIn(1000);
-		$("#northwestern").fillRect("black");	
 	});
 	});
 
