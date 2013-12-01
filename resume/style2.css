@@ -117,9 +117,10 @@ svg:not(:root) {
   cursor: pointer;
 }
 
-.rect::selection {
+.rect:selection {
   background: black;
   color: black;
+
 }
 
 .rect:hover {
