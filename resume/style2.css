@@ -120,13 +120,13 @@ svg:not(:root) {
 .rect:hover {
   background: black;
   color: black;
-  fill:#000;
-  stroke:#000;
-
+  fill:#2c3e50;
+  stroke:#2c3e50;
 }
 
-.rect:hover {
-  background-color:#2c3e50;
+.rect::selection {
+  fill:#000000;
+  stroke:#000000;
 }
 
 #detail{
