@@ -30,6 +30,11 @@ p {
   margin-bottom: 9px;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
   #mi {
     color: #7a4c02;
   }
