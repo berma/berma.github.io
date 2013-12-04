@@ -1,14 +1,14 @@
 $(document).ready(function () {
 	$("#skills").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#skillst").fadeIn(1000);
+		$(".hidden").fadeOut("slow");
+		$("#skillst").fadeIn("slow");
 	});
 	});
 
 $(document).ready(function () {
 	$("#graphics").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#graphicst").fadeIn(1000);
+		$(".hidden").fadeOut("slow");
+		$("#graphicst").fadeIn("slow");
 	});
 	});
 
@@ -21,49 +21,49 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#marketing").click(function () {
-		$(".hidden").fadeOut(400);
+		$(".hidden").fadeOut("slow");
 		$("#marketingt").fadeIn("slow");	
 	});
 	});
 
 $(document).ready(function () {
 	$("#northwestern").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#northwesternt").fadeIn(1000);
+		$(".hidden").fadeOut("slow");
+		$("#northwesternt").fadeIn("slow");
 	});
 	});
 
 $(document).ready(function () {
 	$("#parks").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#parkst").fadeIn(1000);	
+		$(".hidden").fadeOut("slow");
+		$("#parkst").fadeIn("slow");	
 	});
 	});
 
 $(document).ready(function () {
 	$("#printmaking").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#printmakingt").fadeIn(1000);	
+		$(".hidden").fadeOut("slow");
+		$("#printmakingt").fadeIn("slow");	
 	});
 	});
 
 $(document).ready(function () {
 	$("#web").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#webt").fadeIn(1000);	
+		$(".hidden").fadeOut("slow");
+		$("#webt").fadeIn("slow");	
 	});	
 	});
 
 $(document).ready(function () {
 	$("#garden").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#gardent").fadeIn(1000);	
+		$(".hidden").fadeOut("slow");
+		$("#gardent").fadeIn("slow");	
 	});	
 	});
 
 $(document).ready(function () {
 	$("#parks").click(function () {
-		$(".hidden").fadeOut(400);
-		$("#parkst").fadeIn(1000);	
+		$(".hidden").fadeOut("slow");
+		$("#parkst").fadeIn("slow");	
 	});	
 	});
