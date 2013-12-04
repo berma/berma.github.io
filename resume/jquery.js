@@ -28,42 +28,42 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#northwestern").click(function () {
-		$(".hidden").animate({'opacity': 0}, "fast");
-		$("#northwesternt").animate({'opacity': 1}, "slow");
+		$(".hidden").fadeOut("fast");
+		$("#northwesternt").fadeIn("fast");
 	});
 });
 
 $(document).ready(function () {
 	$("#parks").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#parkst").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#parkst").fadeIn("fast");	
 	});
 });
 
 $(document).ready(function () {
 	$("#printmaking").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#printmakingt").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#printmakingt").fadeIn("fast");	
 	});
 });
 
 $(document).ready(function () {
 	$("#web").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#webt").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#webt").fadeIn("fast");	
 	});	
 });
 
 $(document).ready(function () {
 	$("#garden").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#gardent").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#gardent").fadeIn("fast");	
 	});	
 });
 
 $(document).ready(function () {
 	$("#parks").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#parkst").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#parkst").fadeIn("fast");	
 	});	
 });
