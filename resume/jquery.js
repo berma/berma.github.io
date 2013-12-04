@@ -1,28 +1,28 @@
 $(document).ready(function () {
 	$("#skills").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#skillst").fadeIn("slow");
+		$(".hidden").fadeOut("fast");
+		$("#skillst").fadeIn("fast");
 	});
 });
 
 $(document).ready(function () {
 	$("#graphics").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#graphicst").fadeIn("slow");
+		$(".hidden").fadeOut("fast");
+		$("#graphicst").fadeIn("fast");
 	});
 });
 
 $(document).ready(function () {
 	$("#backpacking").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#backpackingt").fadeIn("slow");
+		$(".hidden").fadeOut("fast");
+		$("#backpackingt").fadeIn("fast");
 	});
 });
 
 $(document).ready(function () {
 	$("#marketing").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#marketingt").fadeIn("slow");	
+		$(".hidden").fadeOut("fast");
+		$("#marketingt").fadeIn("fast");	
 	});
 });
 
