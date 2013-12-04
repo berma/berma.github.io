@@ -37,6 +37,10 @@ a {
   color:#34495e;
 }
 
+a:hover {
+  color:#000000;
+}
+
   #mi {
     color: #7a4c02;
   }
