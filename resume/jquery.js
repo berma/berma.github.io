@@ -28,8 +28,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$("#northwestern").click(function () {
-		$(".hidden").fadeOut("slow");
-		$("#northwesternt").fadeIn("slow");
+		$(".hidden").animate({'opacity': 0}, 1000);
+		$("#northwesternt").animate({'opacity': 1}, 1000);
 	});
 });
 
