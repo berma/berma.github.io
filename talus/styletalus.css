@@ -52,12 +52,11 @@
 }
 
 .talustext h3 {
-  float:left;
   font-family: helvetica;
   font-weight: bold;
 }
 
-.talustext h3 {
+.talustext p {
   font-family: helvetica;
 }
 
