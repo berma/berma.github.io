@@ -30,3 +30,13 @@
   width:900px;
   margin-top:22px;
 }
+
+footer {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  position: fixed;
+  margin-left: 300px;
+  bottom: 0px;
+  height:20px;
+  color:#909090;
+}
