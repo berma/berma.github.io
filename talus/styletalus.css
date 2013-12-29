@@ -51,7 +51,13 @@
   margin-right:10px;
 }
 
-.talustext {
+.talustext h3 {
   float:left;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.talustext h3 {
+  font-family: helvetica;
 }
 
