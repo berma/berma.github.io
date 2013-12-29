@@ -39,6 +39,7 @@ h1 {
   margin-right:10px;
   margin-top:140px;
   margin-left: -370px;
+  margin-bottom: 5px;
 }
 
 .vimeo2 {
@@ -50,9 +51,9 @@ h1 {
 
 #long img {
   float:left;
-  max-width: 280px;
+  max-width: 283px;
   margin-left:515px;
-  margin-top:2px;
+  margin-top:-5px;
   margin-bottom:10px;
   margin-right:0px;
 }
