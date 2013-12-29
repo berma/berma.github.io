@@ -1,0 +1,32 @@
+  h1 {
+  font-family: 'Open Sans', sans-serif;
+  float:left;
+  text-align: left;
+  font-size: 45px;
+  color: #16a085;
+  display:inline;
+  margin-bottom:-50px;
+  margin-top:80px;
+  margin-left:6px;
+  font-weight: 800;
+}
+
+  #mi {
+    color: #7a4c02;
+     font-weight: 800;
+  }
+
+.toggle img{
+  max-width:230px;
+  margin-left:604px;
+}  
+
+.header {
+  margin-bottom: -20px;
+}
+
+.project {
+  position:relative;
+  width:900px;
+  margin-top:22px;
+}
