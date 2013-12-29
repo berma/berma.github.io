@@ -17,7 +17,7 @@
   }
 
 .toggle img{
-  max-width:230px;
+  max-width:115px;
   margin-left:604px;
 }  
 
@@ -31,12 +31,9 @@
   margin-top:22px;
 }
 
-footer {
-  text-align: center;
-  font-family: 'Helvetica', sans-serif;
+.main {
   position: fixed;
-  margin-left: 300px;
-  bottom: 0px;
-  height:20px;
-  color:#909090;
+  margin-top: 30px;
+  left:50%;
+  margin-left:-423px;
 }
