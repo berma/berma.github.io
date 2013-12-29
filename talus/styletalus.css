@@ -58,5 +58,6 @@
 
 .talustext p {
   font-family: helvetica;
+  max-width: 255px;
 }
 
