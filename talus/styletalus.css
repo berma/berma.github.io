@@ -38,8 +38,13 @@
   margin-left:-423px;
 }
 
+#vimeo {
+  float:left;
+}
+
 #long {
   float:left;
+  max-width: 500px;
 }
 
 #talustext {
