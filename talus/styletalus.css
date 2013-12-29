@@ -40,6 +40,8 @@
 
 .vimeo {
   float:left;
+  margin-left:7px;
+  margin-right:10px;
 }
 
 #long img {
