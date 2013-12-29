@@ -58,7 +58,7 @@
 }
 
 .talustext {
-  float:left;
+  display:inline;
 }
 
 .talustext h3 {
