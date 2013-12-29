@@ -45,6 +45,7 @@
 #long img {
   float:left;
   max-width: 500px;
+  margin:10px;
 }
 
 .talustext {
