@@ -33,6 +33,7 @@ h1 {
   margin-left:-423px;
   overflow-y: scroll;
   overflow-x: hidden;
+  max-width:1000px;
 }
 
 .img1 {
