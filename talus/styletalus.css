@@ -27,7 +27,8 @@ h1 {
 }
 
 .main {
-  position: fixed;
+  position: relative;
+  max-width:1000px;
   margin-top: 30px;
   left:50%;
   margin-left:-423px;
