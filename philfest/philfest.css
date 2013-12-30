@@ -69,6 +69,9 @@ h1 {
 
 .philfesttext p {
   font-family: helvetica;
+  float:left;
+  margin-top:-500px;
   margin-right:100px;
+  margin-left:446px;
 }
 
