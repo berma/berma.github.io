@@ -1,0 +1,121 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  float:left;
+  text-align: left;
+  font-size: 45px;
+  color: #16a085;
+  display:inline;
+  margin-bottom:-50px;
+  margin-top:80px;
+  margin-left:6px;
+  font-weight: 800;
+}
+
+#mi {
+  color: #7a4c02;
+  font-weight: 800;
+}
+
+.header {
+  margin-bottom: -20px;
+}
+
+.project {
+  position:relative;
+  width:900px;
+  margin-top:22px;
+}
+
+.main {
+  position: relative;
+  max-width:900px;
+  margin-top: 30px;
+  left:50%;
+  margin-left:-423px;
+}
+
+.img1 {
+  margin-left:-370px;
+  margin-top:145px;
+  float:left;
+  margin-bottom:5px;
+}
+
+.img2 {
+  float:left;
+  margin-top:145px;
+  margin-left:-175px;
+  margin-bottom:5px;
+}
+
+.img3 {
+  margin:10px;
+  float:left;
+}
+
+.img4 {
+  margin:10px;
+  float:left;
+  margin-left:5px;
+}
+
+.img5 {
+  margin:10px;
+  float:left;
+}
+
+.img6 {
+  margin:10px;
+  float:left;
+  margin-top: 10px;
+}
+
+.img7 {
+  margin:10px;
+  float:left;
+  margin-left:5px;
+  margin-top:5px;
+}
+
+.img8 {
+  margin:10px;
+  float:left;
+  margin-top:5px;
+}
+
+.img9 {
+  margin:10px;
+  float:left;
+  margin-top:5px;
+}
+
+.img10 {
+  margin:10px;
+  float:left;
+  margin-top:5px;
+}
+
+.headlinertext h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-weight: bold;
+  margin-bottom:-10px;
+  margin-top: 140px;
+  font-size:20px;
+  margin-left:20px;
+  float:left;
+}
+
+.headlinertext p {
+  font-family: helvetica;
+  margin-right:140px;
+  float:left;
+  margin-top:-155px;
+  margin-left:396px;
+
+}
+
+.headlinertext p a {
+  text-decoration:underline;
+  color:#000;
+}
