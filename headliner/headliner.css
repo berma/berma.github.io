@@ -34,32 +34,8 @@ h1 {
   margin-left:-423px;
 }
 
-.vimeo {
-  float:left;
-  margin-left:0px;
-  margin-right:10px;
-  margin-top:140px;
-  margin-left: -370px;
-  margin-bottom: 5px;
-}
-
-.vimeo2 {
-  margin-left:5px;
-  margin-top:10px;
-  width:500px;
-  height:280px;
-}
-
-#long img {
-  float:left;
-  max-width: 283px;
-  margin-left:515px;
-  margin-top:-5px;
-  margin-bottom:10px;
-  margin-right:0px;
-}
-
-.talustext {
+#img1 {
+  margin-left:100px;
 }
 
 .headlinertext h3 {
