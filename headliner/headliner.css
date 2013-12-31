@@ -11,10 +11,10 @@ h1 {
   font-weight: 800;
 }
 
-  #mi {
-    color: #7a4c02;
-     font-weight: 800;
-  }
+#mi {
+  color: #7a4c02;
+  font-weight: 800;
+}
 
 .header {
   margin-bottom: -20px;
@@ -115,3 +115,7 @@ h1 {
 
 }
 
+.headlinertext p a {
+  text-decoration:underline;
+  color:#000;
+}
