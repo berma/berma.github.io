@@ -62,7 +62,7 @@ h1 {
 .talustext {
 }
 
-.talustext h3 {
+.headlinertext h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight:600;
   font-weight: bold;
@@ -71,7 +71,7 @@ h1 {
   font-size:20px;
 }
 
-.talustext p {
+.headlinertext p {
   font-family: helvetica;
   margin-right:100px;
 }
