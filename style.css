@@ -97,6 +97,10 @@
   margin-left:83px;
 }
 
+.bold a:hover {
+  text-decoration:underline;
+}
+
 p {
   font-family: helvetica, sans-serif;
   float:left;
