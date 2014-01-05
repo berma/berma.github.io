@@ -50,6 +50,11 @@
   font-family: helvetica, sans-serif;
   font-weight: bold;
   font-size:15px;
+  color:#2b2a2c;
+}
+
+.bold:hover {
+  text-decoration: underline;
 }
 
 .caption1 {
@@ -95,10 +100,6 @@
   margin-top:-15px;
   display:inline-block;
   margin-left:83px;
-}
-
-.bold a:hover {
-  text-decoration:underline;
 }
 
 p {
