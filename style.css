@@ -48,11 +48,13 @@ h5 {
   float:left;
   font-family: helvetica, sans-serif;
   font-weight: bold;
+  font-size:20px;
 }
 
 p {
   font-family: helvetica, sans-serif;
   float:left;
+  font-size: 20px;
 }
 
 footer {
