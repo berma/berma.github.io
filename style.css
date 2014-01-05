@@ -44,17 +44,17 @@
   margin-left:-423px;
 }
 
-h5 {
+.bold {
   float:left;
   font-family: helvetica, sans-serif;
   font-weight: bold;
-  font-size:20px;
+  font-size:15px;
 }
 
 p {
   font-family: helvetica, sans-serif;
   float:left;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 footer {
