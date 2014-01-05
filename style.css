@@ -66,6 +66,17 @@
   margin-left:145px;
 }
 
+.portfolio2 {
+  position:relative;
+  width:900px;
+}
+
+.portfolio2 img {
+  max-width:320px;
+  height:auto;
+  margin:5px;
+}
+
 .caption4 {
   margin-top:-5px;
 }
