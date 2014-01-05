@@ -116,6 +116,6 @@ h1 {
 }
 
 .headlinertext p a {
-  text-decoration:underline;
-  color:#000;
+  text-decoration:none;
+  color:#3498db;
 }
