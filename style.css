@@ -44,6 +44,17 @@
   margin-left:-423px;
 }
 
+h5 {
+  float:left;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  float:left;
+}
+
 footer {
   text-align: center;
   font-family: 'Helvetica', sans-serif;
