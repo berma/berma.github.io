@@ -19,11 +19,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-<<<<<<< HEAD
-theme: jekyll-theme-minimal
-=======
 theme: minima
->>>>>>> parent of 9849b37... Set theme jekyll-theme-cayman
 gems:
 - jekyll-feed
 exclude:
