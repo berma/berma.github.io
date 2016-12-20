@@ -8,3 +8,4 @@ layout: page
 phone
 email
 address
+![safe_image.jpg](/uploads/safe_image.jpg)
