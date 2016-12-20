@@ -1,0 +1,14 @@
+---
+---
+
+@import "minima";
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.site-header {
+  border-top:0px;
+}   
