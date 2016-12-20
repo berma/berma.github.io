@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#359DFF">
+  <meta name="description" content="{{ page.excerpt | strip_html }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
+  <meta name="twitter:title" content="{{ page.title }} - David Young">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+  <meta name="twitter:image" content="https://davidyoung.tech/images/small.jpg">
+  <meta name="twitter:site" content="@dayvidwhy">
+  <meta name="twitter:creator" content="@dayvidwhy">
+  <title>David Young - {{ page.title }}</title>
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+  <link rel="shortcut icon" href="images/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="David Young" href="https://blog.davidyoung.tech/feed.xml">
+</head>
+<body>
+  {% include header.html %}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        <p class="post-meta meta-border"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: '%b %-d, %Y' }}</time> by <strong itemprop="author">{{ site.title }}</strong></p>
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      </article>
+      {% for category in page.categories %}
+      <p class="category-tag">{{ category }}</p>
+      {% endfor %}
+      {% if page.next != null %}
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+        <strong>Next: </strong><a href="{{ page.next.url }}" itemprop="name headline url">{{ page.next.title }}</a>
+      </article>
+      {% endif %}
+      {% if page.previous != null %}
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+        <strong>Previous: </strong><a href="{{ page.previous.url }}" itemprop="name headline url">{{ page.previous.title }}</a>
+      </article>
+      {% endif %}
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

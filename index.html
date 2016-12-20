@@ -1,131 +1,20 @@
-<!DOCTYPE html>
-<html class="no-js" >
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>History of the Universe</title>
-        <meta name="description" content="A graphic introduction to modern cosmology.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: home
+---
 
-        <meta property="og:title" content="History of the Universe" />
-        <meta property="og:site_name" content="History of the Universe">
-        <meta property="og:description" content="An Animated Introduction to Modern Cosmology" />
-        <meta property="og:image" content="http://history-of-the-universe.com/gifs/text.png">
-
-        <meta property="og:image" content="http://history-of-the-universe.com/gifs/news.png">
-        <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="1343">
-        <meta property="og:image:height" content="723">
-
-        <meta property="og:url" content="http://history-of-the-universe.com">
-        <meta property="fb:app_id" content="1418731548399426">
-        <meta property="og:type" content="website">
-        <link rel="image_src" type="image/jpeg" href="http://history-of-the-universe.com/gifs/text.png" />
-
-        <link href="/gifs/favicon.gif" rel="icon" type="image/x-icon" />
-
-        <!-- Styles -->
-        <link rel="stylesheet" media="screen" href="style.css" />  	
-
-        <!-- Vendors -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
-        <link  href="onepage-scroll.css" rel="stylesheet" type="text/css"/>
-
-         <script type="text/javascript">
-          window.onload = function(){ document.getElementById("loader").style.display = "none"; } 
-
-
-        </script>   
-
-
-		<script>
-       $(document).ready(function(){
-        
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        loop: true,
-        responsiveFallback: 600
-      });
-
-    });
-        </script>
-
-		<!-- Menu -->
-		<script src="/scripts/menu.js"></script>
-
-    </head>
-
-    <body>
-      
-<script>
-      
- FB.init({
-    appId      : '1418731548399426',
-    status     : true,
-    xfbml      : true,
-    version    : 'v2.0',
-  });
-
-</script>
-
-<div id="fb-button">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1418731548399426&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<div class="home">
+  <h1>Posts</h1>
+  <p>This is where I attempt to express ideas about things I've either been working on or issues I encounter. These thoughts are my own.</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+      </h2>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} by <strong>{{ site.title }}</strong></span>
+      {{ post.excerpt }}
+      <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
-    
-    <img class="thumb" src="/gifs/news.png" alt="History of the Universe">
-        
-      <div id="loader">
-      </div>  
-      <div class="main">
-        <section class="titlecard">
-            <img id="title" src="/gifs/galaxy.png" alt="Title Text">
-        </section>      
-        <section class="grapefruit">
-        </section> 
-        <section class="quantum"> 
-        </section>    
-        <section class="energy"> 
-        </section>
-        <section class="protons"> 
-        </section> 
-        <section class="higgs"> 
-        </section>
-        <section class="nucleosynthesis"> 
-        </section>      
-        <section class="nuclei"> 
-        </section>
-        <section class="atoms"> 
-        </section> 
-        <section class="star"> 
-        </section>
-        <section class="supernova"> 
-        </section>
-        <section class="galaxy"> 
-        </section>
-        <section class="nebula"> 
-        </section>  
-        <section class="credits"> 
-            <a href="http://adberman.com" target="blank" id="madeby"></a>
-            
-
-           <div id="f"><div class="fb-like" data-href="https://history-of-the-universe.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></div>
-
-           <div id="t"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://history-of-the-universe.com" data-count="none" class="tweet">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-            
-            
-
-       </section>     
-
-       
-      </div>    
-
-    </body>	
